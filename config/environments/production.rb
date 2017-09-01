@@ -13,7 +13,7 @@ Rails.application.configure do
   # Added the following 3 lines for Sendgrid
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.default_url_options =
-    { :host => 'aws-photo-app.herokuapp.com', protocol => 'https'}
+    { :host => 'aws-photo-app.herokuapp.com', :protocol => 'https'}
     
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
